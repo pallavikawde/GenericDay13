@@ -18,6 +18,19 @@ public class Mnumber {
         System.out.println(MAX+ " is the Maximum number");
 
 
+
+
+        System.out.println("Enter 3 Float numbers to compare");
+        Float a= new Float(sc.nextFloat());
+        Float b= new Float(sc.nextFloat());
+        Float c= new Float(sc.nextFloat());
+
+        Float mf =new Float ( a.compareTo(b) == 1 ? a : b);
+        Float FMAX = new Float ( mf.compareTo(c) == 1 ? mf : c);
+
+        System.out.println(FMAX+ " is the Maximum number");
+
+
         }
 
     }
