@@ -31,6 +31,20 @@ public class Mnumber {
         System.out.println(FMAX+ " is the Maximum number");
 
 
+
+        System.out.println("Checking MAX between Apple, Banana, Peach");
+
+        String p = new String("Apple");
+        String q = new String("Banana");
+        String r = new String("Peach");
+
+        String ms =new String ( p.compareTo(q) == 1 ? p : q);
+        String SMAX = new String ( ms.compareTo(r) == 1 ? ms : r);
+
+        System.out.println(SMAX+ " is the Maximum String");
+
+
+
         }
 
     }
